@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "steppe-nomads",
+	"id": "steppenomads",
 	"version": "${version}",
 	"name": "Steppe Nomads",
 	"description": "Simple mod adding new structures to Plains biome, new mob interactions and also adding new tree",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/steppe-nomads/icon.png",
+	"icon": "assets/steppenomads/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -26,9 +26,9 @@
 		]
 	},
 	"mixins": [
-		"steppe-nomads.mixins.json",
+		"steppenomads.mixins.json",
 		{
-			"config": "steppe-nomads.client.mixins.json",
+			"config": "steppenomads.client.mixins.json",
 			"environment": "client"
 		}
 	],
